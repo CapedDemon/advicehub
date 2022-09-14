@@ -9,7 +9,7 @@ const adviceBTN = document.getElementById("adviceBTN");
 const secondb = document.getElementById("secondb");
 
 adviceBTN.addEventListener("click", () => {
-    var adviceObj = httpGet('http://localhost:8080/suradvice');
+    var adviceObj = httpGet('http://advicehub.onrender.com/suradvice');
     var parsed = JSON.parse(adviceObj);
 
     var description = parsed.data.description;
