@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("./images/idea.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+header {
+    font-family: 'Poppins',
+        sans-serif;
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #fff;
+    position: relative;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+header span {
+    padding-left: 2px;
+    margin: 3px;
+    background: #F4740F;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.container {
+    max-width: 650px;
+    margin: 60px 100px;
+}
+
+.content-1 {
+    
+    justify-content: flex-start;
+}
+
+.first-box {
+     font-family: 'Poppins',
+        sans-serif;
+}
+
+.banner h2 {
+    color: #F6E6E0;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+#s-banner {
+    color: #AAA29F;
+}
+
+.text-area p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.text-area {
+    color: #fff;
+}
+
+.advice-btn {
+    margin-top: 30px;
+    color: #fff;
+    background: #226A80;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: #0C3C63 solid;
+     font-family: 'Poppins',
+        sans-serif;
+}
+
+#repo {
+    margin-top: 90px;
+    color: #fff;
+    background: #000;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: #fff solid;
+    text-decoration: none;
+     font-family: 'Poppins',
+        sans-serif;
+}
+
+.second-box {
+    margin-top: 40px;
+    align-items: center;
+    font-family: 'Ms Madi', cursive;
+}
+
+@media (max-width: 750px) {
+    
+}
