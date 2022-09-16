@@ -1,8 +1,7 @@
 <a name="readme-top"></a>
 
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+![Stargazers](https://img.shields.io/github/stars/Shreejan-35/advicehub?style=social)
+![MIT License](https://img.shields.io/github/license/Shreejan-35/advicehub)
 
 <br />
 <div align="center">
@@ -80,7 +79,7 @@ Else commands can be done by the admin, i.e **ME**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Hpst Platform
+## Host Platform
 
 The website is hosted on [render](https://render.com/) 
 
