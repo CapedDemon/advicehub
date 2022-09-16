@@ -1,125 +1,227 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 section {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("./images/idea.jpg");
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
+  position: relative;
+  width: 100%;
+  height: 109vh;
+  display: flex;
+  flex-direction: column;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
+    url("./images/idea.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
 }
 
 header {
-    font-family: 'Poppins',
-        sans-serif;
-    position: relative;
-    top: 0;
-    width: 100%;
-    padding: 30px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header .logo {
-    color: #fff;
-    position: relative;
-    font-size: 30px;
-    text-decoration: none;
-    font-weight: 800;
-    letter-spacing: 1px;
+  color: #fff;
+  position: relative;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: 1px;
 }
 
 header span {
-    padding-left: 2px;
-    margin: 3px;
-    background: #F4740F;
-    border-radius: 5px;
-    padding: 5px 10px;
+  padding-left: 2px;
+  margin: 3px;
+  background: #f4740f;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
 .container {
-    max-width: 650px;
-    margin: 60px 100px;
+  max-width: 650px;
+  margin: 60px 100px;
 }
 
 .content-1 {
-    
-    justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .first-box {
-     font-family: 'Poppins',
-        sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .banner h2 {
-    color: #F6E6E0;
-    font-size: 55px;
-    font-weight: 800;
-    line-height: 60px;
-    letter-spacing: 2px;
-    margin-bottom: 30px;
+  color: #f6e6e0;
+  font-size: 55px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
 }
 
 #s-banner {
-    color: #AAA29F;
+  color: #aaa29f;
 }
 
 .text-area p {
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 40px;
 }
 
 .text-area {
-    color: #fff;
+  color: #fff;
 }
 
 .advice-btn {
-    margin-top: 30px;
-    color: #fff;
-    background: #226A80;
-    font-weight: 700;
-    letter-spacing: 2px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: #0C3C63 solid;
-     font-family: 'Poppins',
-        sans-serif;
+  margin-top: 30px;
+  color: #fff;
+  background: #226a80;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: #0c3c63 solid;
+  font-family: "Poppins", sans-serif;
 }
 
 #repo {
-    margin-top: 90px;
-    color: #fff;
-    background: #000;
-    font-weight: 500;
-    letter-spacing: 2px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: #fff solid;
-    text-decoration: none;
-     font-family: 'Poppins',
-        sans-serif;
+  margin-top: 90px;
+  color: #fff;
+  background: #000;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: #fff solid;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 
 .second-box {
-    margin-top: 40px;
-    align-items: center;
-    font-family: 'Ms Madi', cursive;
+  margin-top: 40px;
+  align-items: center;
+  font-family: "Ms Madi", cursive;
 }
 
-@media (max-width: 750px) {
-    
+@media (max-width: 600px) {
+  section {
+    height: 130vh;
+  }
+
+  .banner h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 420px) {
+  header .logo {
+    font-size: 25px;
+  }
+  section {
+    height: 130vh;
+  }
+}
+
+@media (max-width: 410px) {
+  section {
+    height: 145vh;
+  }
+}
+
+@media (max-width: 380px) {
+  header .logo {
+    font-size: 20px;
+  }
+  .banner h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .text-area p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  .advice-btn {
+    font-weight: 400;
+    letter-spacing: 0px;
+    padding: 5px 10px;
+  }
+
+  #repo {
+    font-weight: 500;
+    letter-spacing: 0px;
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 365px) {
+  section {
+    height: 156vh;
+  }
+}
+
+@media (max-width: 350px) {
+  header .logo {
+    font-size: 15px;
+  }
+
+  .banner h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  section {
+    height: 166vh;
+  }
+}
+
+@media (max-width: 330px) {
+  .text-area p {
+    font-size: 7px;
+    margin-bottom: 20px;
+  }
+
+  .container {
+    margin-top: 10px;
+  }
+
+  header span {
+    padding: 2px 6px;
+  }
+}
+
+@media (max-width: 325px) {
+  .advice-btn {
+    margin-top: 0px;
+    font-size: 13px;
+    padding: 2px 6px;
+  }
+
+  #repo {
+    font-weight: 00;
+    letter-spacing: 0px;
+    padding: 2px 6px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 315px) {
+  header .logo {
+    font-size: 12px;
+  }
 }
