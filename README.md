@@ -1,7 +1,6 @@
 <a name="readme-top"></a>
 
 ![Stargazers](https://img.shields.io/github/stars/Shreejan-35/advicehub?style=social)
-![MIT License](https://img.shields.io/github/license/Shreejan-35/advicehub)
 
 <br />
 <div align="center">
