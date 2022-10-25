@@ -118,6 +118,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 SHREEJAN - [livin.cool.boy](https://www.instagram.com/livin.cool.boy/)
 
-Project Link: [https://github.com/Shreejan-35/advicehub](https://github.com/Shreejan-35/advicehub)
+Project Link: [https://github.com/CapedDemon/advicehub](https://github.com/CapedDemon/advicehub)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
